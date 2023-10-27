@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script defer src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <title>Salary Calculator</title>
 </head>
@@ -11,6 +12,35 @@
   </header>
   <main>
     <h2>Add Employee</h2>
+    <!-- create a form for the inputs, submit button at end-->
+   <form>
+    <input data-testedid="firstNameInput"
+           placeholder="First Name" 
+           type="text"
+           id="submitFirstName"
+    >
+    <input data-testedid="lastNameInput"
+           placeholder="Last Name"
+           type="text"
+           id="submitLastName"
+    >       
+    <input data-testedid="idInput"
+           placeholder="ID"
+           type="number"
+           id="submitId"
+    >
+    <input data-testedid="titleInput"
+           placeholder="Job Title"
+           type="text"
+           id="submitTitle"
+    >
+    <input data-testedid="annualSalaryInput"
+           placeholder="Annual Salary"
+           type="number"
+           id="submitAnnualSalary"
+    > 
+    <button data-testedid="submitButton">Submit</button>             
+   </form>
     <h2>Employees</h2>
   </main>
   <footer>
