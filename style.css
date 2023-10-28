@@ -9,6 +9,7 @@
 .inputs {
     text-align: center;
     border-radius:  solid 5%;
+    
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 
 table {
     width: 80%;
-    text-align: center;
+    align-items: center;
 }
 
 
@@ -26,5 +27,7 @@ table, th {
     background-color: lightseagreen;
     border-collapse: collapse;
     height: 1.5em;
+    
+    
     
 }

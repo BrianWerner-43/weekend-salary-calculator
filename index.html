@@ -10,14 +10,15 @@
   <header>
    <div class="head">
     <h1>Brian's Salary Calculator</h1>
-    <p>&copy; Brian Werner 2023</p>
+    <!-- <p>&copy; Brian Werner 2023</p> -->
    </div>
   </header>
   <main>
     <h2>Add Employee</h2>
-    <!-- create a form for the inputs and add a submit button at end-->
+    <!-- Setting up a form element for the inputs and add a submit button at end-->
    <div class="inputs">
-   <form>
+
+   <form onsubmit="newEmployee(event)">
     <input data-testedid="firstNameInput"
            placeholder="First Name" 
            type="text"
@@ -50,7 +51,7 @@
    <table>
         <thead>
           <tr>
-            <th>First name</th>
+            <th>First Name</th>
             <th>Last Name</th>
             <th>ID</th>
             <th>Job Title</th>
@@ -62,6 +63,7 @@
   </main>
   <footer>
     <p class="footer">Total Monthly <span id="monthly-total">$0.00</span></p>
+    <h6> #Moonstone #Prime Digital Academy &clubs;</h6>
   </footer>
 </body>
 </html>
