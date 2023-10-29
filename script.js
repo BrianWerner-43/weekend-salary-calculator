@@ -33,7 +33,7 @@ function newEmployee(event) {
      </tr>`
       
     
-        
+      // These will clear the inputs  
     document.getElementById('submitFirstName').value = '';
     document.getElementById('submitLastName').value = '';
     document.getElementById('submitId').value = '';
@@ -67,15 +67,7 @@ function newEmployee(event) {
       }
 
     
-
-  
-
-    
-
 };// end of the newEmployee function
-
-
-
 
 
 
