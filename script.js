@@ -16,7 +16,7 @@ function newEmployee(event) {
     let id = document.getElementById('submitId').value;
     let title = document.getElementById('submitTitle').value;
     let annualSalary = document.getElementById('submitAnnualSalary').value;
-    // let total = document.getElementById('total').value;
+    
     console.log('Test inputs');
 
 
