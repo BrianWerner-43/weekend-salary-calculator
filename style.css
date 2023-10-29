@@ -17,9 +17,35 @@ h2 {
 .inputs {
     text-align: center;
     border-radius:  solid 5%;
-    
+            
+}
+
+.first-name {
+    color:rgb(35, 64, 255);
+    background-color: cornsilk;
     
 }
+
+.last-name {
+    color:rgb(35, 64, 255);
+    background-color: cornsilk;
+}
+
+.id {
+    color:rgb(35, 64, 255);
+    background-color: cornsilk;
+}
+
+.title {
+    color:rgb(35, 64, 255);
+    background-color: cornsilk;
+}
+
+.salary {
+    color:rgb(35, 64, 255);
+    background-color: cornsilk;
+}
+
 
 body {
     background-color: rgb(228, 181, 228);
