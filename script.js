@@ -54,7 +54,7 @@ function newEmployee(event) {
 
     
 
-    // Setting up a function that will determine if the monthly total exceeds $20k
+    // Using a conditional that will determine if the monthly total exceeds $20k
     // it should turn red
     document.getElementById('total').innerHTML = `Total Monthly: $${totalMonthly}`;
       if(totalMonthly > 20000) {
@@ -62,8 +62,8 @@ function newEmployee(event) {
         console.log(footer);
         footer.classList.add('over-budget')
       }else {
-        let footer = document.querySelector('footer');
-        console.log(footer);
+        // let footer = document.querySelector('footer');
+        // console.log(footer);
       }
 
     
